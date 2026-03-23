@@ -1,0 +1,18 @@
+I want to build a 'Radio Networks Research Dashboard' from scratch using Streamlit.
+
+1. Project Structure: Create a data/ folder and a utils/ folder.
+2. Data Generation: Create a script utils/generate_mock_data.py that generates a measurements.csv in the data/ folder with 200 samples. Fields: LATITUDE, LONGITUDE, and five RSRP signals (RSRP_1 to RSRP_5). Values should mimic real-world fading.
+3. Main App: Create app.py that:
+
+Loads the generated data.
+
+Displays an interactive map using pydeck to visualize RSRP coverage.
+
+Shows a distribution plot of the signals using plotly.
+
+Includes a sidebar to filter data by RSRP threshold.
+4. Requirements: Create a requirements.txt file.
+
+Please initialize the whole repository and run the data generation script automatically.
+
+Then open your browser and test the app from the UI to test all the implemented features
